@@ -1,0 +1,64 @@
+<!-- 
+  ApexPlanet Task: 01/05
+  Project: Duck Hunt Web Application
+  Uploaded: Sunday, 27 October 2024
+  Author: R Doondi Gangadhar
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+   
+            <div class="popup" id="popup">
+                <div class="popup-content" id="popup-content">
+
+                    <div id="page1">
+                        <h2>Gaming Instructions</h2>
+                        <p>
+                            <ul>
+                                <li>Use your mouse to aim and shoot ducks.</li>
+                                <li>Aim carefully — each hit counts!</li>
+                                <li>Ducks fly fast and randomly, so stay alert!</li>
+                                <li>The faster you shoot, the more points you score!</li>
+                            </ul>
+                        </p>
+                        <div class="page-btn">
+                            <button onclick="nextPage()" class="popup-btn">Next</button>
+                        </div>
+                        
+                    </div>
+
+                    <div id="page2" style="display: none;">
+                        <h2>Sample Game</h2>
+                        <div class="game-gif">
+                            <img src="gameintro.gif" alt="duck" width="400">
+                        </div>
+                        <div class="page-btn">
+                            <button onclick="window.location.href='main.html'" class="popup-btn">Let’s Start</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <script>
+
+                window.onload = function() {
+                    document.getElementById("popup").style.display = "flex";
+                };
+        
+                function nextPage() {
+                    document.getElementById("page1").style.display = "none";
+                    document.getElementById("page2").style.display = "block";
+                }
+               
+            </script>
+  
+</body>
+</html>
