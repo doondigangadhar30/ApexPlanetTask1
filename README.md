@@ -18,8 +18,11 @@ Welcome to the **Duck Hunt Game!**
   
 ## Sample Game
 Here's a preview of the game in action:
+ ## Instructions page
+![Screenshot_3-11-2024_12490_doondigangadhar30 github io](https://github.com/user-attachments/assets/4b50e7f8-6742-4086-be57-5af9fea17d4c)
+ ## Sample Game
+![Screenshot_3-11-2024_125329_doondigangadhar30 github io](https://github.com/user-attachments/assets/d9dd6d4b-26c5-4692-a691-6118942cf985)
 
-![gameintro](https://github.com/user-attachments/assets/628edae5-c06b-4e6b-a94a-068da40e1bc4)
 
 ## Links 📌
 
